@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta name="keywords" content="fotografía, argentina, san justo, fotos, video, filmmaking">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+  content="Bienvendes a Vivant Fotografía y Video! Esta es nuestra página de contacto, hacenos tu consulta!">
+  <title>Contacto|Vivant</title>
+</head>
+
+<body>
+  <header>
+    <img id="icono" src="../img/logo.png" alt="logo">
+    <nav id="navBar2">
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="imagenes.html">Imagenes</a></li>
+        <li><a href="video.html">Videos</a></li>
+        <li><a href="informacion.html">Informacion</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Contacto</h1>
+  <div class="formulario">
+  <form class="info" action="comentarios.php">
+      <legend>
+        Dejanos tu consulta!
+      </legend>
+      <label for="nombre">Nombre</label><br>
+      <input type="text" id="nombre"><br>
+      <label for="apellido">Apellido</label><br>
+      <input type="text" id="apellido"><br>
+      <label for="consulta">Hacé tu consulta!</label><br>
+      <textarea name="comentario" id="" cols="50" rows="10" placeholder="Escribí lo que quieras saber"></textarea><br>
+
+      <p>Que tipo de evento es?</p>
+      <select name="estrellas">
+        <option value="Selecciona uno"></option>
+        <option value="1">Book de Fotos</option>
+        <option value="2">Casamiento</option>
+        <option value="3">15/18 años</option>
+        <option value="4">Cumpleaños</option>
+        <option value="5">Bautismo</option>
+        <option value="5">Otro</option>
+      </select> <br>
+      <input type="checkbox" name="terminos">
+      <label for="presupuesto">¿Quéres recibir un presupuesto con la respuesta?</label> <br>
+
+      <button type="button" class="botonEnviar">
+        Confirmar
+      </button>
+  </form>
+     
+</div>
+</body>
+<footer> 
+  <h2 class="footer__titulo">Buscanos en:</h2>
+  <p class="footer__texto"> ipsum dolor sit amet consectetur adipisicing elit. Beatae, quidem.
+  </p>
+</footer>
+
+</html>
