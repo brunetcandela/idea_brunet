@@ -82,16 +82,21 @@ main {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   align-content: stretch;
-  justify-content: center;
-  grid-column-gap: 10%; }
+  width: auto;
+  height: 100%; }
 
 img {
   width: 250px;
   height: auto;
   border-radius: 10px;
   justify-self: center; }
+
+.imgIndex {
+  width: auto;
+  height: 449px;
+  margin-top: 0%; }
 
 .img1:hover {
   transform: scale(3, 3); }
@@ -187,7 +192,8 @@ h3 {
   height: 50px;
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-left: 5px; }
+  margin-left: 5px;
+  box-shadow: 0 0 5px black; }
 
 .redes {
   margin-left: 43%; }
@@ -203,7 +209,8 @@ h3 {
 
 footer {
   background-color: #DB8B70;
-  margin-top: 5%; }
+  margin-top: 5%;
+  box-shadow: 0 0 15px black; }
 
 .table {
   background-color: #1A8F74;
